@@ -17,7 +17,7 @@ const Portfolio = () => {
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
   const [isTyping, setIsTyping] = useState(true);
 
-  const typingWords = ['AI Engineer', 'Full Stack Developer', 'Data Scientist', 'ML Enthusiast'];
+  const typingWords = ['AI Engineer', 'Developer', 'Data Scientist', 'ML Enthusiast'];
   const heroText = "Hey, I'm Ram — I turn code into intelligence.";
 
   useEffect(() => {
@@ -475,7 +475,7 @@ const Portfolio = () => {
             </p>
             <div className="flex flex-wrap justify-center gap-6">
               <motion.a
-                href="mailto:ram@example.com"
+                href="mailto:ram1905@gmail.com"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="flex items-center space-x-2 bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg transition-colors"
@@ -484,7 +484,7 @@ const Portfolio = () => {
                 <span>Email Me</span>
               </motion.a>
               <motion.a
-                href="https://linkedin.com/in/ram"
+                href="www.linkedin.com/in/ram-singhal-134b442aa"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="flex items-center space-x-2 bg-blue-700 hover:bg-blue-800 text-white px-8 py-4 rounded-lg transition-colors"
@@ -493,7 +493,7 @@ const Portfolio = () => {
                 <span>LinkedIn</span>
               </motion.a>
               <motion.a
-                href="https://github.com/ram"
+                href="https://https://github.com/ramsinghal7"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="flex items-center space-x-2 bg-gray-800 hover:bg-gray-900 text-white px-8 py-4 rounded-lg transition-colors"
